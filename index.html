@@ -33,12 +33,23 @@
         <!-- tittle -->
         <header id="Home-Page">
           <h1>
-            Hi <span id="user-greeting">User,</span>
+            Hi <span id="name">User</span>
             Welcome to our website
           </h1>
+
+          <input
+            type="text"
+            name="name"
+            id="name-input"
+            placeholder="Enter your name"
+          />
+          <button id="kirim">kirim</button>
+          <p id="error-name"></p>
         </header>
 
-        <div class="banner-image"></div>
+        <div class="banner-image banner-image1"></div>
+        <div class="banner-image banner-image2"></div>
+        <div class="banner-image banner-image3"></div>
       </section>
 
       <!-- Our Profile -->\
@@ -68,7 +79,22 @@
           <h1>Message Us</h1>
         </header>
 
-        <div class="content"></div>
+        <div class="content">
+          <form action="">
+            <label for="name-input">Name:</label>
+            <input
+              type="text"
+              name="name"
+              id="name-input"
+              placeholder="Enter your name"
+              required
+            />
+
+            <button type="button" id="submit-btn">Submit</button>
+          </form>
+
+          <div id="result-form"></div>
+        </div>
       </section>
     </main>
 
@@ -79,5 +105,8 @@
     <footer>
       <p>&copy; 2025</p>
     </footer>
+
+    <!-- JS -->
+    <script src="Js\Script.js"></script>
   </body>
 </html>
