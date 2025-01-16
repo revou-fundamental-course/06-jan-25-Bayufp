@@ -20,6 +20,18 @@
   background-size: cover;
 }
 
+.banner-image1 {
+  background-image: url(https://picsum.photos/1000);
+}
+
+.banner-image2 {
+  background-image: url(https://picsum.photos/1001);
+}
+
+.banner-image3 {
+  background-image: url(https://picsum.photos/1002);
+}
+
 .content {
   height: 500px;
 }
